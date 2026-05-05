@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appRTMoney_FILE /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/libappRTMoney_arm64-v8a.so)
+set(__QT_DEPLOY_TARGET_appRTMoney_TYPE MODULE_LIBRARY)

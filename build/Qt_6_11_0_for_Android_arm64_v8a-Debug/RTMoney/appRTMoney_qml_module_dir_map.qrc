@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/RTMoney">/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/RTMoney</file>
+
+  </qresource>
+</RCC>

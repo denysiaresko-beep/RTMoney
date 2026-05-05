@@ -1,0 +1,14 @@
+-rootPath
+/Users/denysiaresko/RTMoney
+-cmake-output
+-output-file
+/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/qml_imports/appRTMoney_conf.cmake
+-importPath
+/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug
+-importPath
+/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/RTMoney
+-importPath
+/Users/denysiaresko/Qt/6.11.0/macos/qml
+-qrcFiles
+/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qmake_RTMoney.qrc
+/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/appRTMoney_raw_qml_0.qrc

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+/Users/denysiaresko/Qt/6.11.0/macos/libexec/qt-android-runner.py \
+    --adb "/Users/denysiaresko/Library/Android/sdk/platform-tools/adb" \
+    --build-path "/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/android-build-appRTMoney" \
+    --apk "/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_Android_arm64_v8a-Debug/android-build-appRTMoney/appRTMoney.apk" \
+    $@
+

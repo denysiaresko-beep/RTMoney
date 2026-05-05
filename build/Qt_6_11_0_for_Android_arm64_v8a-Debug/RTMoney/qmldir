@@ -1,0 +1,6 @@
+module RTMoney
+typeinfo appRTMoney.qmltypes
+prefer :/qt/qml/RTMoney/
+Main 254.0 Main.qml
+depends QtQuick
+

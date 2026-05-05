@@ -1,0 +1,313 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-108c8c3665b037931621.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "RTMoney",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-6e451d09c8c6327937ff.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-1ec7d9260b3b555808be.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aar-Debug-6028c3a50a298d88fc9a.json",
+					"name" : "aar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-548e1320c5032016c702.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-aaf8687f46426d6dc95d.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-45eb99531c0ef0849dcd.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-0040379cf947b155b7be.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-5943f6fb744a8217e517.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-60a2fd26001cc68f4d28.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-58433f8da9143ffc1631.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney-Debug-d4d8a0d2d380383716fb.json",
+					"name" : "appRTMoney",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_autogen-Debug-d0dc3d86bae6eab6d7db.json",
+					"name" : "appRTMoney_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_autogen_timestamp_deps-Debug-85aeb3728c4854056321.json",
+					"name" : "appRTMoney_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_copy_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_copy_apk_dependencies-Debug-5ab64c310cf6347da8e9.json",
+					"name" : "appRTMoney_copy_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_copy_qml-Debug-4fd994256346e6376c07.json",
+					"name" : "appRTMoney_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_copy_res-Debug-b9856cdd1bdd316a2b63.json",
+					"name" : "appRTMoney_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_make_aab-Debug-0545d27786ddfc203c17.json",
+					"name" : "appRTMoney_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_make_aar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_make_aar-Debug-b0adbb3b82dfd81d1d38.json",
+					"name" : "appRTMoney_make_aar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_make_apk-Debug-b85e6f11997d150ee4b0.json",
+					"name" : "appRTMoney_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_prepare_apk_dir-Debug-4322199201742a7c65ac.json",
+					"name" : "appRTMoney_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_qmllint-Debug-cc8730dbe50611a8ee30.json",
+					"name" : "appRTMoney_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_qmllint_json-Debug-abd99b4437f1bd0c084e.json",
+					"name" : "appRTMoney_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_qmllint_module-Debug-1560abab505b2162b545.json",
+					"name" : "appRTMoney_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appRTMoney_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appRTMoney_qmltyperegistration-Debug-cf9b223ba7fb16121218.json",
+					"name" : "appRTMoney_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Debug-f5141ceab148d991863c.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Debug-3dff4efdd0f7d108a2b8.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-842112fc1591b1d8cca6.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appRTMoney_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appRTMoney_aotstats_target-Debug-1639bce4ed2e6c3a99d2.json",
+					"name" : "module_appRTMoney_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-315eec96558a42a248db.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_Android_arm64_v8a-Debug",
+		"source" : "/Users/denysiaresko/RTMoney"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
