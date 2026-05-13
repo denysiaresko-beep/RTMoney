@@ -1002,4 +1002,6 @@ CMakeFiles/appRTMoney.dir/currencymanager.cpp.o: \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qcborcommon.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qregularexpression.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/quuid.h \
-  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qendian.h
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qendian.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/QJsonArray \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qjsonarray.h

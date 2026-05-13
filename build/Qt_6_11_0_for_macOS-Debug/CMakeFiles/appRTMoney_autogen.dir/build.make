@@ -69,6 +69,7 @@ include CMakeFiles/appRTMoney_autogen.dir/progress.make
 CMakeFiles/appRTMoney_autogen: appRTMoney_autogen/timestamp
 
 appRTMoney_autogen/timestamp: /Users/denysiaresko/Qt/6.11.0/macos/libexec/moc
+appRTMoney_autogen/timestamp: /Users/denysiaresko/Qt/6.11.0/macos/libexec/uic
 appRTMoney_autogen/timestamp: CMakeFiles/appRTMoney_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target appRTMoney"
 	/Users/denysiaresko/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/appRTMoney_autogen.dir/AutogenInfo.json Debug

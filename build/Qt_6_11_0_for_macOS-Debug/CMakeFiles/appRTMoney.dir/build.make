@@ -81,9 +81,12 @@ apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/libexec
 apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6core_metatypes.json
 apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6qml_metatypes.json
 apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6network_metatypes.json
-apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6quick_metatypes.json
 apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6gui_metatypes.json
+apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6quick_metatypes.json
 apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6opengl_metatypes.json
+apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6charts_metatypes.json
+apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6widgets_metatypes.json
+apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6openglwidgets_metatypes.json
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic QML type registration for target appRTMoney"
 	/Users/denysiaresko/Qt/6.11.0/macos/libexec/qmltyperegistrar --generate-qmltypes=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/RTMoney/appRTMoney.qmltypes --import-name=RTMoney --major-version=254 --minor-version=254 @/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/qmltypes/appRTMoney_foreign_types.txt -o /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/apprtmoney_qmltyperegistrations.cpp /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/meta_types/qt6apprtmoney_metatypes.json
 	/Users/denysiaresko/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E make_directory /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/qmltypes
@@ -125,6 +128,7 @@ RTMoney/appRTMoney.qmltypes: apprtmoney_qmltyperegistrations.cpp
 	/Users/denysiaresko/Qt/6.11.0/macos/libexec/rcc --output /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp --name appRTMoney_raw_qml_0 /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/appRTMoney_raw_qml_0.qrc --no-zstd
 
 appRTMoney_autogen/timestamp: /Users/denysiaresko/Qt/6.11.0/macos/libexec/moc
+appRTMoney_autogen/timestamp: /Users/denysiaresko/Qt/6.11.0/macos/libexec/uic
 appRTMoney_autogen/timestamp: CMakeFiles/appRTMoney.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Automatic MOC and UIC for target appRTMoney"
 	/Users/denysiaresko/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/appRTMoney_autogen.dir/AutogenInfo.json Debug
@@ -275,10 +279,13 @@ appRTMoney.app/Contents/MacOS/appRTMoney: CMakeFiles/appRTMoney.dir/build/Qt_6_1
 appRTMoney.app/Contents/MacOS/appRTMoney: CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o
 appRTMoney.app/Contents/MacOS/appRTMoney: CMakeFiles/appRTMoney.dir/build.make
 appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtQuick.framework/Versions/A/QtQuick
-appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtOpenGL.framework/Versions/A/QtOpenGL
-appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Versions/A/QtGui
+appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCharts.framework/Versions/A/QtCharts
 appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtQml.framework/Versions/A/QtQml
 appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtNetwork.framework/Versions/A/QtNetwork
+appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtOpenGLWidgets.framework/Versions/A/QtOpenGLWidgets
+appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtOpenGL.framework/Versions/A/QtOpenGL
+appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Versions/A/QtGui
 appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Versions/A/QtCore
 appRTMoney.app/Contents/MacOS/appRTMoney: CMakeFiles/appRTMoney.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable appRTMoney.app/Contents/MacOS/appRTMoney"

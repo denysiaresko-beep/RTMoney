@@ -1,7 +1,8 @@
 CMakeFiles/appRTMoney.dir/main.cpp.o: \
   /Users/denysiaresko/RTMoney/main.cpp \
-  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/QGuiApplication \
-  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qguiapplication.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/QApplication \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qtguiglobal.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qglobal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/c++/v1/type_traits \
@@ -710,6 +711,8 @@ CMakeFiles/appRTMoney.dir/main.cpp.o: \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qversiontagging.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qtgui-config.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qtguiexports.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qcoreapplication.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qstring.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qchar.h \
@@ -946,6 +949,31 @@ CMakeFiles/appRTMoney.dir/main.cpp.o: \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qnativeinterface.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qcoreapplication_platform.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qwindowdefs.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qpoint.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qcheckedint_impl.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/q23utility.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/q20utility.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qsize.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qmargins.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qcursor.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qbitmap.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qpixmap.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qpaintdevice.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qrect.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qcolor.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qrgb.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qrgba64.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qshareddata.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qimage.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qpixelformat.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qtransform.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qpolygon.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qregion.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qspan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/c++/v1/cassert \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/q20iterator.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qline.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qguiapplication.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qinputmethod.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qlocale.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qvariant.h \
@@ -953,7 +981,6 @@ CMakeFiles/appRTMoney.dir/main.cpp.o: \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qtextstream.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qcontiguouscache.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qsharedpointer.h \
-  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qshareddata.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qsharedpointer_impl.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/c++/v1/set \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/c++/v1/unordered_set \
@@ -963,12 +990,6 @@ CMakeFiles/appRTMoney.dir/main.cpp.o: \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qhash.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qalloc.h \
-  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/q23utility.h \
-  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/q20utility.h \
-  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qpoint.h \
-  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qcheckedint_impl.h \
-  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qsize.h \
-  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qmargins.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Headers/qguiapplication_platform.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtQml.framework/Headers/QQmlApplicationEngine \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtQml.framework/Headers/qqmlapplicationengine.h \
@@ -999,14 +1020,13 @@ CMakeFiles/appRTMoney.dir/main.cpp.o: \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qmetaobject.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qpointer.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qversionnumber.h \
-  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qspan.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk/usr/include/c++/v1/cassert \
-  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/q20iterator.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Headers/qtyperevision.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtQml.framework/Headers/qqmlregistration.h \
   /Users/denysiaresko/Qt/6.11.0/macos/include/QtQmlIntegration/qqmlintegration.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtQml.framework/Headers/qqmlerror.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtQml.framework/Headers/qqmlabstracturlinterceptor.h \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtQml.framework/Headers/QQmlContext \
+  /Users/denysiaresko/Qt/6.11.0/macos/lib/QtQml.framework/Headers/qqmlcontext.h \
   /Users/denysiaresko/RTMoney/currencymanager.h \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtNetwork.framework/Headers/QNetworkAccessManager \
   /Users/denysiaresko/Qt/6.11.0/macos/lib/QtNetwork.framework/Headers/qnetworkaccessmanager.h \

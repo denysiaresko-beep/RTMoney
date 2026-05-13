@@ -75,9 +75,12 @@ apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/libexec
 apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6core_metatypes.json
 apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6qml_metatypes.json
 apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6network_metatypes.json
-apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6quick_metatypes.json
 apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6gui_metatypes.json
+apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6quick_metatypes.json
 apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6opengl_metatypes.json
+apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6charts_metatypes.json
+apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6widgets_metatypes.json
+apprtmoney_qmltyperegistrations.cpp: /Users/denysiaresko/Qt/6.11.0/macos/metatypes/qt6openglwidgets_metatypes.json
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target appRTMoney"
 	/Users/denysiaresko/Qt/6.11.0/macos/libexec/qmltyperegistrar --generate-qmltypes=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/RTMoney/appRTMoney.qmltypes --import-name=RTMoney --major-version=254 --minor-version=254 @/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/qmltypes/appRTMoney_foreign_types.txt -o /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/apprtmoney_qmltyperegistrations.cpp /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/meta_types/qt6apprtmoney_metatypes.json
 	/Users/denysiaresko/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E make_directory /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/qmltypes
@@ -102,6 +105,7 @@ meta_types/appRTMoney_json_file_list.txt: appRTMoney_autogen/timestamp
 	/Users/denysiaresko/Qt/6.11.0/macos/libexec/cmake_automoc_parser --cmake-autogen-cache-file /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/appRTMoney_autogen.dir/ParseCache.txt --cmake-autogen-info-file /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/appRTMoney_autogen.dir/AutogenInfo.json --output-file-path /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/meta_types/appRTMoney_json_file_list.txt --timestamp-file-path /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/meta_types/appRTMoney_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/appRTMoney_autogen/include
 
 appRTMoney_autogen/timestamp: /Users/denysiaresko/Qt/6.11.0/macos/libexec/moc
+appRTMoney_autogen/timestamp: /Users/denysiaresko/Qt/6.11.0/macos/libexec/uic
 appRTMoney_autogen/timestamp: CMakeFiles/appRTMoney_qmltyperegistration.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Automatic MOC and UIC for target appRTMoney"
 	/Users/denysiaresko/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/appRTMoney_autogen.dir/AutogenInfo.json Debug

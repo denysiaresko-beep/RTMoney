@@ -5,6 +5,7 @@ project(RTMoney VERSION 0.1 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(Qt6 REQUIRED COMPONENTS Quick)
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Qml Quick Charts Widgets)
 
 qt_standard_project_setup(REQUIRES 6.10)
 
@@ -30,8 +31,13 @@ set_target_properties(appRTMoney PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
-target_link_libraries(appRTMoney
-    PRIVATE Qt6::Quick
+target_link_libraries(appRTMoney PRIVATE
+    Qt6::Core
+    Qt6::Gui
+    Qt6::Qml
+    Qt6::Quick
+    Qt6::Charts
+    Qt6::Widgets
 )
 
 install(TARGETS appRTMoney

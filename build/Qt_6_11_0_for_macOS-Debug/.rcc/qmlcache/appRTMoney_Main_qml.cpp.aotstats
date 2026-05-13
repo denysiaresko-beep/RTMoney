@@ -7,42 +7,170 @@
                     "entries": [
                         {
                             "codegenResult": 2,
-                            "column": 12,
+                            "column": 5,
                             "durationMicroseconds": 0,
-                            "functionName": "color",
-                            "line": 9,
-                            "message": "Cannot access value for name white"
+                            "functionName": "updateCurrency",
+                            "line": 19,
+                            "message": "Cannot retrieve a non-object type by ID: coinCombo"
                         },
                         {
                             "codegenResult": 2,
-                            "column": 31,
+                            "column": 5,
                             "durationMicroseconds": 0,
-                            "functionName": "inputMethodHints",
-                            "line": 45,
-                            "message": "Could not find property \"inputMethodHints\"."
+                            "functionName": "calculateTotal",
+                            "line": 32,
+                            "message": "Cannot retrieve a non-object type by ID: currencyInput"
                         },
                         {
                             "codegenResult": 0,
-                            "column": 27,
+                            "column": 28,
                             "durationMicroseconds": 0,
-                            "functionName": "notation",
-                            "line": 50,
+                            "functionName": "onCompleted",
+                            "line": 15,
                             "message": ""
                         },
                         {
                             "codegenResult": 2,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 48,
+                            "message": "Cannot access value for name myManager"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "onRateChanged",
+                            "line": 50,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "onChartDataReady",
+                            "line": 55,
+                            "message": "Functions without type annotations won't be compiled"
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 23,
+                            "durationMicroseconds": 0,
+                            "functionName": "fill",
+                            "line": 87,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 30,
+                            "durationMicroseconds": 0,
+                            "functionName": "onActivated",
+                            "line": 107,
+                            "message": "Could not find signal \"activated\"."
+                        },
+                        {
+                            "codegenResult": 2,
                             "column": 31,
                             "durationMicroseconds": 0,
+                            "functionName": "onActivated",
+                            "line": 122,
+                            "message": "Could not find signal \"activated\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 0,
                             "functionName": "inputMethodHints",
-                            "line": 56,
+                            "line": 128,
+                            "message": "Could not find property \"inputMethodHints\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 32,
+                            "durationMicroseconds": 0,
+                            "functionName": "onTextChanged",
+                            "line": 135,
+                            "message": "Could not find signal \"textChanged\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 31,
+                            "durationMicroseconds": 0,
+                            "functionName": "notation",
+                            "line": 133,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 35,
+                            "durationMicroseconds": 0,
+                            "functionName": "inputMethodHints",
+                            "line": 141,
                             "message": "Could not find property \"inputMethodHints\"."
                         },
                         {
                             "codegenResult": 0,
-                            "column": 27,
+                            "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "notation",
-                            "line": 61,
+                            "line": 146,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "model",
+                            "line": 154,
+                            "message": "Could not find property \"model\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 13,
+                            "durationMicroseconds": 0,
+                            "functionName": "getDays",
+                            "line": 156,
+                            "message": "Cannot access value for name currentText"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "onActivated",
+                            "line": 176,
+                            "message": "Could not find signal \"activated\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 26,
+                            "durationMicroseconds": 0,
+                            "functionName": "onActivated",
+                            "line": 176,
+                            "message": "Could not find signal \"activated\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 22,
+                            "durationMicroseconds": 0,
+                            "functionName": "visible",
+                            "line": 183,
+                            "message": "Cannot retrieve a non-object type by ID: timeCombo"
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 29,
+                            "durationMicroseconds": 0,
+                            "functionName": "onClicked",
+                            "line": 205,
+                            "message": "Could not find signal \"clicked\"."
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 20,
+                            "durationMicroseconds": 0,
+                            "functionName": "theme",
+                            "line": 227,
                             "message": ""
                         }
                     ],

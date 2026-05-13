@@ -96,12 +96,12 @@ clean: CMakeFiles/appRTMoney_autogen.dir/clean
 # Target rules for target CMakeFiles/appRTMoney.dir
 
 # All Build rule for target.
-CMakeFiles/appRTMoney.dir/all: CMakeFiles/appRTMoney_autogen_timestamp_deps.dir/all
 CMakeFiles/appRTMoney.dir/all: CMakeFiles/appRTMoney_copy_qml.dir/all
 CMakeFiles/appRTMoney.dir/all: CMakeFiles/appRTMoney_copy_res.dir/all
 CMakeFiles/appRTMoney.dir/all: CMakeFiles/generate_qmlls_build_ini_file.dir/all
 CMakeFiles/appRTMoney.dir/all: CMakeFiles/appRTMoney_qmlimportscan.dir/all
 CMakeFiles/appRTMoney.dir/all: CMakeFiles/appRTMoney_autogen.dir/all
+CMakeFiles/appRTMoney.dir/all: CMakeFiles/appRTMoney_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney.dir/build.make CMakeFiles/appRTMoney.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney.dir/build.make CMakeFiles/appRTMoney.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target appRTMoney"
@@ -465,8 +465,8 @@ CMakeFiles/generate_qmlls_build_ini_file.dir/clean:
 # Target rules for target CMakeFiles/module_appRTMoney_aotstats_target.dir
 
 # All Build rule for target.
-CMakeFiles/module_appRTMoney_aotstats_target.dir/all: CMakeFiles/appRTMoney_autogen_timestamp_deps.dir/all
 CMakeFiles/module_appRTMoney_aotstats_target.dir/all: CMakeFiles/appRTMoney_qmltyperegistration.dir/all
+CMakeFiles/module_appRTMoney_aotstats_target.dir/all: CMakeFiles/appRTMoney_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/module_appRTMoney_aotstats_target.dir/build.make CMakeFiles/module_appRTMoney_aotstats_target.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/module_appRTMoney_aotstats_target.dir/build.make CMakeFiles/module_appRTMoney_aotstats_target.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=32,33 "Built target module_appRTMoney_aotstats_target"
@@ -492,8 +492,8 @@ CMakeFiles/module_appRTMoney_aotstats_target.dir/clean:
 # Target rules for target CMakeFiles/all_aotstats.dir
 
 # All Build rule for target.
-CMakeFiles/all_aotstats.dir/all: CMakeFiles/appRTMoney_autogen_timestamp_deps.dir/all
 CMakeFiles/all_aotstats.dir/all: CMakeFiles/module_appRTMoney_aotstats_target.dir/all
+CMakeFiles/all_aotstats.dir/all: CMakeFiles/appRTMoney_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_aotstats.dir/build.make CMakeFiles/all_aotstats.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_aotstats.dir/build.make CMakeFiles/all_aotstats.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=1 "Built target all_aotstats"

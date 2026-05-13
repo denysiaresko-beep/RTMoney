@@ -1,0 +1,1 @@
+/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/appRTMoney_autogen/include/../EWIEGA46WW/moc_currencymanager.cpp.json
