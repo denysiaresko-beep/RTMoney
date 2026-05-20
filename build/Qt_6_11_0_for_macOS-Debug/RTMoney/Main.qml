@@ -71,7 +71,7 @@ Window {
             } else if (timeCombo.currentText === "Year") {
                 axisX.format = "MMM yyyy"
                 axisX.tickCount = 12
-            } else {
+            } else if (timeCombo.currentText === "Week" || timeCombo.currentText === "Month") {
                 axisX.format = "dd MMM"
                 axisX.tickCount = 7
             }
@@ -95,6 +95,14 @@ Window {
             ComboBox {
                 id: coinCombo
                 editable: true
+                Component.onCompleted: {
+                        for (var i = 0; i < model.count; ++i) {
+                            if (model.get(i).text === "Bitcoin") {
+                                currentIndex = i;
+                                break;
+                            }
+                        }
+                    }
                 model: ListModel {
                     id: model
                     ListElement { text: "Bitcoin" }
@@ -110,6 +118,15 @@ Window {
             ComboBox {
                 id: currCombo
                 editable: true
+                Component.onCompleted: {
+                        for (var i = 0; i < model.count; ++i) {
+                            if (model.get(i).text === "USD") {
+                                currentIndex = i;
+                                updateCurrency();
+                                break;
+                            }
+                        }
+                    }
                 model: ListModel {
                     id: model2
                     ListElement { text: "Bitcoin" }
@@ -124,7 +141,8 @@ Window {
 
             TextField {
                 id: currencyInput
-                placeholderText: "0.00"
+                //placeholderText: "0.00"
+                text: "1.00"
                 inputMethodHints: Qt.ImhFormattedNumbersOnly
 
                 validator: DoubleValidator {

@@ -66,23 +66,39 @@
                             "column": 30,
                             "durationMicroseconds": 0,
                             "functionName": "onActivated",
-                            "line": 107,
+                            "line": 115,
                             "message": "Could not find signal \"activated\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "onCompleted",
+                            "line": 98,
+                            "message": "Cannot access value for name model"
                         },
                         {
                             "codegenResult": 2,
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "onActivated",
-                            "line": 122,
+                            "line": 139,
                             "message": "Could not find signal \"activated\"."
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 40,
+                            "durationMicroseconds": 0,
+                            "functionName": "onCompleted",
+                            "line": 121,
+                            "message": "Cannot access value for name model"
                         },
                         {
                             "codegenResult": 2,
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "inputMethodHints",
-                            "line": 128,
+                            "line": 146,
                             "message": "Could not find property \"inputMethodHints\"."
                         },
                         {
@@ -90,7 +106,7 @@
                             "column": 32,
                             "durationMicroseconds": 0,
                             "functionName": "onTextChanged",
-                            "line": 135,
+                            "line": 153,
                             "message": "Could not find signal \"textChanged\"."
                         },
                         {
@@ -98,7 +114,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "notation",
-                            "line": 133,
+                            "line": 151,
                             "message": ""
                         },
                         {
@@ -106,7 +122,7 @@
                             "column": 35,
                             "durationMicroseconds": 0,
                             "functionName": "inputMethodHints",
-                            "line": 141,
+                            "line": 159,
                             "message": "Could not find property \"inputMethodHints\"."
                         },
                         {
@@ -114,7 +130,7 @@
                             "column": 31,
                             "durationMicroseconds": 0,
                             "functionName": "notation",
-                            "line": 146,
+                            "line": 164,
                             "message": ""
                         },
                         {
@@ -122,7 +138,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "model",
-                            "line": 154,
+                            "line": 172,
                             "message": "Could not find property \"model\"."
                         },
                         {
@@ -130,7 +146,7 @@
                             "column": 13,
                             "durationMicroseconds": 0,
                             "functionName": "getDays",
-                            "line": 156,
+                            "line": 174,
                             "message": "Cannot access value for name currentText"
                         },
                         {
@@ -138,7 +154,7 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "onActivated",
-                            "line": 176,
+                            "line": 194,
                             "message": "Could not find signal \"activated\"."
                         },
                         {
@@ -146,7 +162,7 @@
                             "column": 26,
                             "durationMicroseconds": 0,
                             "functionName": "onActivated",
-                            "line": 176,
+                            "line": 194,
                             "message": "Could not find signal \"activated\"."
                         },
                         {
@@ -154,7 +170,7 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "visible",
-                            "line": 183,
+                            "line": 201,
                             "message": "Cannot retrieve a non-object type by ID: timeCombo"
                         },
                         {
@@ -162,7 +178,7 @@
                             "column": 29,
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
-                            "line": 205,
+                            "line": 223,
                             "message": "Could not find signal \"clicked\"."
                         },
                         {
@@ -170,7 +186,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "theme",
-                            "line": 227,
+                            "line": 245,
                             "message": ""
                         }
                     ],

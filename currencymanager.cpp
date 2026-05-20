@@ -46,13 +46,94 @@ void CurrencyManager::updateRate(const QString &coin,const QString &curr) {
 
 
 void CurrencyManager::updateChart(const QString &coin, const QString &curr, int days) {
-    QString urlString = QString("https://api.coingecko.com/api/v3/coins/%1/market_chart?vs_currency=%2&days=%3&x_cg_demo_api_key=CG-StPNxD7SgVnr81ZfNS5fvcaF").arg(coin).arg(curr).arg(days);
+    QStringList currencies = { "usd", "eur", "uah" };
+    bool isCoinFiat = currencies.contains(coin);
+    bool isCurrFiat = currencies.contains(curr);
+    QString finalId = coin;
+    QString finalVs = curr;
+    bool needsInvert = false;
+
+    if (isCoinFiat && !isCurrFiat) {
+        finalId = curr;
+        finalVs = coin;
+        needsInvert = true;
+    } else if (isCoinFiat && isCurrFiat) {
+        QString urlString = QString("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=%1,%2&x_cg_demo_api_key=CG-StPNxD7SgVnr81ZfNS5fvcaF")
+        .arg(coin).arg(curr);
+
+        QNetworkRequest request((QUrl(urlString)));
+        QNetworkReply *priceReply = manager->get(request);
+
+        connect(priceReply, &QNetworkReply::finished, this, [this, priceReply, coin, curr, days]() {
+            if(priceReply->error() == QNetworkReply::NoError) {
+                QJsonDocument doc = QJsonDocument::fromJson(priceReply->readAll());
+                QJsonObject btcObj = doc.object()["bitcoin"].toObject();
+
+                double btcToCoin = btcObj[coin].toDouble();
+                double btcToCurr = btcObj[curr].toDouble();
+
+                if (btcToCoin > 0) {
+                    double currentCrossRate = btcToCurr / btcToCoin;
+                    emit rateChanged(currentCrossRate);
+                    qDebug() << "Fiat Cross-Rate [" << coin << "->" << curr << "]:" << currentCrossRate;
+
+                    QString chartUrlStr = QString("https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=%1&days=%2&x_cg_demo_api_key=CG-StPNxD7SgVnr81ZfNS5fvcaF")
+                                              .arg(curr).arg(days);
+                    QNetworkRequest chartRequest((QUrl(chartUrlStr)));
+                    QNetworkReply *chartReply = manager->get(chartRequest);
+
+                    connect(chartReply, &QNetworkReply::finished, this, [this, chartReply, btcToCoin]() {
+                        if (chartReply->error() == QNetworkReply::NoError) {
+                            QJsonDocument chartDoc = QJsonDocument::fromJson(chartReply->readAll());
+                            QJsonArray pricesArray = chartDoc.object()["prices"].toArray();
+                            QVariantList points;
+
+                            double minPrice = std::numeric_limits<double>::max();
+                            double maxPrice = std::numeric_limits<double>::lowest();
+
+                            for (int i = 0; i < pricesArray.size(); ++i) {
+                                QJsonArray pt = pricesArray[i].toArray();
+                                double timestamp = pt[0].toDouble();
+                                double btcPriceInCurr = pt[1].toDouble();
+
+                                double crossPrice = btcPriceInCurr / btcToCoin;
+
+                                if (crossPrice < minPrice) minPrice = crossPrice;
+                                if (crossPrice > maxPrice) maxPrice = crossPrice;
+
+                                QVariantMap pointMap;
+                                pointMap["x"] = timestamp;
+                                pointMap["y"] = crossPrice;
+                                points.append(pointMap);
+                            }
+
+                            emit chartDataReady(points, minPrice, maxPrice);
+                            qDebug() << "Fiat Cross-Chart ready for rendering.";
+                        } else {
+                            qDebug() << "Fiat Cross-Chart Error:" << chartReply->errorString();
+                        }
+                        chartReply->deleteLater();
+                    });
+                }
+            } else {
+                qDebug() << "Fiat Cross-Price Bridge Error:" << priceReply->errorString();
+            }
+            priceReply->deleteLater();
+        });
+    }
+
+
+
+
+
+
+    QString urlString = QString("https://api.coingecko.com/api/v3/coins/%1/market_chart?vs_currency=%2&days=%3&x_cg_demo_api_key=CG-StPNxD7SgVnr81ZfNS5fvcaF").arg(finalId).arg(finalVs).arg(days);
     QUrl url(urlString);
     QNetworkRequest request(url);
 
     QNetworkReply *reply = manager->get(request);
 
-    connect(reply, &QNetworkReply::finished, this, [this, reply, coin, curr](){
+    connect(reply, &QNetworkReply::finished, this, [this, reply, coin, curr, needsInvert](){
         if (reply->error() == QNetworkReply::NoError) {
             QByteArray responseData = reply->readAll();
 
@@ -87,6 +168,10 @@ void CurrencyManager::updateChart(const QString &coin, const QString &curr, int 
                     if (i == pricesArray.size() - 1) {
                         latestRate = price;
                     }
+
+                    if (needsInvert && latestRate != 0) {
+                        latestRate = 1.0 / latestRate;
+                    }
                 }
 
                 emit rateChanged(latestRate);
@@ -103,9 +188,8 @@ void CurrencyManager::updateChart(const QString &coin, const QString &curr, int 
 }
 
 void CurrencyManager::updateChartRange(const QString &coin, const QString &curr, qint64 from, qint64 to) {
-    // API CoinGecko для діапазону дат приймає час у секундах (UNIX timestamp)
     QString urlString = QString("https://api.coingecko.com/api/v3/coins/%1/market_chart/range?vs_currency=%2&from=%3&to=%4&x_cg_demo_api_key=CG-StPNxD7SgVnr81ZfNS5fvcaF")
-                            .arg(coin).arg(curr).arg(from).arg(to);
+    .arg(coin).arg(curr).arg(from).arg(to);
     QUrl url(urlString);
     QNetworkRequest request(url);
 
