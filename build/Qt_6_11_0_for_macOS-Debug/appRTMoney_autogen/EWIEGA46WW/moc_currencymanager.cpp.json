@@ -59,31 +59,6 @@
                     "lineNumber": 16,
                     "name": "updateChart",
                     "returnType": "void"
-                },
-                {
-                    "access": "public",
-                    "arguments": [
-                        {
-                            "name": "coin",
-                            "type": "QString"
-                        },
-                        {
-                            "name": "curr",
-                            "type": "QString"
-                        },
-                        {
-                            "name": "from",
-                            "type": "qint64"
-                        },
-                        {
-                            "name": "to",
-                            "type": "qint64"
-                        }
-                    ],
-                    "index": 5,
-                    "lineNumber": 17,
-                    "name": "updateChartRange",
-                    "returnType": "void"
                 }
             ],
             "object": true,

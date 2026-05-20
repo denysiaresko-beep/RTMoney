@@ -51,10 +51,7 @@ template <> constexpr inline auto CurrencyManager::qt_create_metaobjectdata<qt_m
         "coin",
         "curr",
         "updateChart",
-        "days",
-        "updateChartRange",
-        "from",
-        "to"
+        "days"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -77,10 +74,6 @@ template <> constexpr inline auto CurrencyManager::qt_create_metaobjectdata<qt_m
         // Method 'updateChart'
         QtMocHelpers::MethodData<void(const QString &, const QString &)>(11, 2, QMC::AccessPublic | QMC::MethodCloned, QMetaType::Void, {{
             { QMetaType::QString, 9 }, { QMetaType::QString, 10 },
-        }}),
-        // Method 'updateChartRange'
-        QtMocHelpers::MethodData<void(const QString &, const QString &, qint64, qint64)>(13, 2, QMC::AccessPublic, QMetaType::Void, {{
-            { QMetaType::QString, 9 }, { QMetaType::QString, 10 }, { QMetaType::LongLong, 14 }, { QMetaType::LongLong, 15 },
         }}),
     };
     QtMocHelpers::UintData qt_properties {
@@ -110,7 +103,6 @@ void CurrencyManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int 
         case 2: _t->updateRate((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
         case 3: _t->updateChart((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<int>>(_a[3]))); break;
         case 4: _t->updateChart((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2]))); break;
-        case 5: _t->updateChartRange((*reinterpret_cast<std::add_pointer_t<QString>>(_a[1])),(*reinterpret_cast<std::add_pointer_t<QString>>(_a[2])),(*reinterpret_cast<std::add_pointer_t<qint64>>(_a[3])),(*reinterpret_cast<std::add_pointer_t<qint64>>(_a[4]))); break;
         default: ;
         }
     }
@@ -141,14 +133,14 @@ int CurrencyManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 5;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 5)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 6;
+        _id -= 5;
     }
     return _id;
 }
