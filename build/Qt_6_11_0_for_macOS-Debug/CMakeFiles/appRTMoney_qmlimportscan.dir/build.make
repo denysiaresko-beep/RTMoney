@@ -71,6 +71,7 @@ CMakeFiles/appRTMoney_qmlimportscan: .qt/qml_imports/appRTMoney_build.cmake
 .qt/qml_imports/appRTMoney_build.cmake: /Users/denysiaresko/Qt/6.11.0/macos/libexec/qmlimportscanner
 .qt/qml_imports/appRTMoney_build.cmake: .qt/rcc/qmake_RTMoney.qrc
 .qt/qml_imports/appRTMoney_build.cmake: .qt/rcc/appRTMoney_raw_qml_0.qrc
+.qt/qml_imports/appRTMoney_build.cmake: .qt/rcc/appRTMoney_raw_res_0.qrc
 .qt/qml_imports/appRTMoney_build.cmake: /Users/denysiaresko/RTMoney/Main.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appRTMoney"
 	cd /Users/denysiaresko/RTMoney && /Users/denysiaresko/Qt/6.11.0/macos/libexec/qmlimportscanner @/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/qml_imports/appRTMoney_build.rsp

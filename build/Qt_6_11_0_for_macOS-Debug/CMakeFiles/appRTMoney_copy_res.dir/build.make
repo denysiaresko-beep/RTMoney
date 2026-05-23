@@ -69,6 +69,7 @@ include CMakeFiles/appRTMoney_copy_res.dir/progress.make
 CMakeFiles/appRTMoney_copy_res: .qt/appRTMoney_res.txt
 
 .qt/appRTMoney_res.txt: /Users/denysiaresko/Qt/6.11.0/macos/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
+.qt/appRTMoney_res.txt: /Users/denysiaresko/RTMoney/.gitignore
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying appRTMoney qml resources into build dir"
 	/Users/denysiaresko/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -DFILES_INFO_PATH=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/appRTMoney_res.cmake -P /Users/denysiaresko/Qt/6.11.0/macos/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

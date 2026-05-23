@@ -105,6 +105,7 @@ RTMoney/appRTMoney.qmltypes: apprtmoney_qmltyperegistrations.cpp
 .rcc/qmlcache/appRTMoney_qmlcache_loader.cpp: .rcc/qmlcache/appRTMoney_qml_loader_file_list.rsp
 .rcc/qmlcache/appRTMoney_qmlcache_loader.cpp: .qt/rcc/qmake_RTMoney.qrc
 .rcc/qmlcache/appRTMoney_qmlcache_loader.cpp: .qt/rcc/appRTMoney_raw_qml_0.qrc
+.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp: .qt/rcc/appRTMoney_raw_res_0.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating .rcc/qmlcache/appRTMoney_qmlcache_loader.cpp"
 	/Users/denysiaresko/Qt/6.11.0/macos/libexec/qmlcachegen --resource-name qmlcache_appRTMoney -o /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp @/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qml_loader_file_list.rsp
 
@@ -112,11 +113,12 @@ RTMoney/appRTMoney.qmltypes: apprtmoney_qmltyperegistrations.cpp
 .rcc/qmlcache/appRTMoney_Main_qml.cpp: /Users/denysiaresko/RTMoney/Main.qml
 .rcc/qmlcache/appRTMoney_Main_qml.cpp: .qt/rcc/qmake_RTMoney.qrc
 .rcc/qmlcache/appRTMoney_Main_qml.cpp: .qt/rcc/appRTMoney_raw_qml_0.qrc
+.rcc/qmlcache/appRTMoney_Main_qml.cpp: .qt/rcc/appRTMoney_raw_res_0.qrc
 .rcc/qmlcache/appRTMoney_Main_qml.cpp: RTMoney/appRTMoney.qmltypes
 .rcc/qmlcache/appRTMoney_Main_qml.cpp: RTMoney/qmldir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating .rcc/qmlcache/appRTMoney_Main_qml.cpp, .rcc/qmlcache/appRTMoney_Main_qml.cpp.aotstats"
 	/Users/denysiaresko/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E make_directory /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache
-	/Users/denysiaresko/Qt/6.11.0/macos/libexec/qmlcachegen --bare --resource-path /qt/qml/RTMoney/Main.qml -I /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug -I /Users/denysiaresko/Qt/6.11.0/macos/qml -i /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/RTMoney/qmldir --resource /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qmake_RTMoney.qrc --resource /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/appRTMoney_raw_qml_0.qrc --dump-aot-stats "--module-id=RTMoney(appRTMoney)" -o /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp /Users/denysiaresko/RTMoney/Main.qml
+	/Users/denysiaresko/Qt/6.11.0/macos/libexec/qmlcachegen --bare --resource-path /qt/qml/RTMoney/Main.qml -I /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug -I /Users/denysiaresko/Qt/6.11.0/macos/qml -i /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/RTMoney/qmldir --resource /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qmake_RTMoney.qrc --resource /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/appRTMoney_raw_qml_0.qrc --resource /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/appRTMoney_raw_res_0.qrc --dump-aot-stats "--module-id=RTMoney(appRTMoney)" -o /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp /Users/denysiaresko/RTMoney/Main.qml
 
 .rcc/qmlcache/appRTMoney_Main_qml.cpp.aotstats: .rcc/qmlcache/appRTMoney_Main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/appRTMoney_Main_qml.cpp.aotstats
@@ -127,26 +129,32 @@ RTMoney/appRTMoney.qmltypes: apprtmoney_qmltyperegistrations.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource appRTMoney_raw_qml_0"
 	/Users/denysiaresko/Qt/6.11.0/macos/libexec/rcc --output /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp --name appRTMoney_raw_qml_0 /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/appRTMoney_raw_qml_0.qrc --no-zstd
 
+.qt/rcc/qrc_appRTMoney_raw_res_0.cpp: /Users/denysiaresko/RTMoney/.gitignore
+.qt/rcc/qrc_appRTMoney_raw_res_0.cpp: .qt/rcc/appRTMoney_raw_res_0.qrc
+.qt/rcc/qrc_appRTMoney_raw_res_0.cpp: /Users/denysiaresko/Qt/6.11.0/macos/libexec/rcc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource appRTMoney_raw_res_0"
+	/Users/denysiaresko/Qt/6.11.0/macos/libexec/rcc --output /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp --name appRTMoney_raw_res_0 /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/appRTMoney_raw_res_0.qrc --no-zstd
+
 appRTMoney_autogen/timestamp: /Users/denysiaresko/Qt/6.11.0/macos/libexec/moc
 appRTMoney_autogen/timestamp: /Users/denysiaresko/Qt/6.11.0/macos/libexec/uic
 appRTMoney_autogen/timestamp: CMakeFiles/appRTMoney.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Automatic MOC and UIC for target appRTMoney"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Automatic MOC and UIC for target appRTMoney"
 	/Users/denysiaresko/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/appRTMoney_autogen.dir/AutogenInfo.json Debug
 	/Users/denysiaresko/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E touch /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/appRTMoney_autogen/timestamp
 
 meta_types/appRTMoney_json_file_list.txt: /Users/denysiaresko/Qt/6.11.0/macos/libexec/cmake_automoc_parser
 meta_types/appRTMoney_json_file_list.txt: appRTMoney_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running AUTOMOC file extraction for target appRTMoney"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running AUTOMOC file extraction for target appRTMoney"
 	/Users/denysiaresko/Qt/6.11.0/macos/libexec/cmake_automoc_parser --cmake-autogen-cache-file /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/appRTMoney_autogen.dir/ParseCache.txt --cmake-autogen-info-file /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles/appRTMoney_autogen.dir/AutogenInfo.json --output-file-path /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/meta_types/appRTMoney_json_file_list.txt --timestamp-file-path /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/meta_types/appRTMoney_json_file_list.txt.timestamp --cmake-autogen-include-dir-path /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/appRTMoney_autogen/include
 
 meta_types/qt6apprtmoney_metatypes.json: meta_types/qt6apprtmoney_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating meta_types/qt6apprtmoney_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating meta_types/qt6apprtmoney_metatypes.json"
 	/Users/denysiaresko/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E true
 
 CMakeFiles/appRTMoney.dir/appRTMoney_autogen/mocs_compilation.cpp.o: CMakeFiles/appRTMoney.dir/flags.make
 CMakeFiles/appRTMoney.dir/appRTMoney_autogen/mocs_compilation.cpp.o: appRTMoney_autogen/mocs_compilation.cpp
 CMakeFiles/appRTMoney.dir/appRTMoney_autogen/mocs_compilation.cpp.o: CMakeFiles/appRTMoney.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appRTMoney.dir/appRTMoney_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appRTMoney.dir/appRTMoney_autogen/mocs_compilation.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appRTMoney.dir/appRTMoney_autogen/mocs_compilation.cpp.o -MF CMakeFiles/appRTMoney.dir/appRTMoney_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/appRTMoney.dir/appRTMoney_autogen/mocs_compilation.cpp.o -c /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/appRTMoney_autogen/mocs_compilation.cpp
 
 CMakeFiles/appRTMoney.dir/appRTMoney_autogen/mocs_compilation.cpp.i: cmake_force
@@ -160,7 +168,7 @@ CMakeFiles/appRTMoney.dir/appRTMoney_autogen/mocs_compilation.cpp.s: cmake_force
 CMakeFiles/appRTMoney.dir/main.cpp.o: CMakeFiles/appRTMoney.dir/flags.make
 CMakeFiles/appRTMoney.dir/main.cpp.o: /Users/denysiaresko/RTMoney/main.cpp
 CMakeFiles/appRTMoney.dir/main.cpp.o: CMakeFiles/appRTMoney.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appRTMoney.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appRTMoney.dir/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appRTMoney.dir/main.cpp.o -MF CMakeFiles/appRTMoney.dir/main.cpp.o.d -o CMakeFiles/appRTMoney.dir/main.cpp.o -c /Users/denysiaresko/RTMoney/main.cpp
 
 CMakeFiles/appRTMoney.dir/main.cpp.i: cmake_force
@@ -174,7 +182,7 @@ CMakeFiles/appRTMoney.dir/main.cpp.s: cmake_force
 CMakeFiles/appRTMoney.dir/apprtmoney_qmltyperegistrations.cpp.o: CMakeFiles/appRTMoney.dir/flags.make
 CMakeFiles/appRTMoney.dir/apprtmoney_qmltyperegistrations.cpp.o: apprtmoney_qmltyperegistrations.cpp
 CMakeFiles/appRTMoney.dir/apprtmoney_qmltyperegistrations.cpp.o: CMakeFiles/appRTMoney.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appRTMoney.dir/apprtmoney_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appRTMoney.dir/apprtmoney_qmltyperegistrations.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appRTMoney.dir/apprtmoney_qmltyperegistrations.cpp.o -MF CMakeFiles/appRTMoney.dir/apprtmoney_qmltyperegistrations.cpp.o.d -o CMakeFiles/appRTMoney.dir/apprtmoney_qmltyperegistrations.cpp.o -c /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/apprtmoney_qmltyperegistrations.cpp
 
 CMakeFiles/appRTMoney.dir/apprtmoney_qmltyperegistrations.cpp.i: cmake_force
@@ -188,7 +196,7 @@ CMakeFiles/appRTMoney.dir/apprtmoney_qmltyperegistrations.cpp.s: cmake_force
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp.o: CMakeFiles/appRTMoney.dir/flags.make
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp.o: .qt/rcc/qrc_qmake_RTMoney.cpp
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp.o: CMakeFiles/appRTMoney.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp.o -MF CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp.o.d -o CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp.o -c /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp
 
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp.i: cmake_force
@@ -202,7 +210,7 @@ CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMo
 CMakeFiles/appRTMoney.dir/currencymanager.cpp.o: CMakeFiles/appRTMoney.dir/flags.make
 CMakeFiles/appRTMoney.dir/currencymanager.cpp.o: /Users/denysiaresko/RTMoney/currencymanager.cpp
 CMakeFiles/appRTMoney.dir/currencymanager.cpp.o: CMakeFiles/appRTMoney.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appRTMoney.dir/currencymanager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appRTMoney.dir/currencymanager.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appRTMoney.dir/currencymanager.cpp.o -MF CMakeFiles/appRTMoney.dir/currencymanager.cpp.o.d -o CMakeFiles/appRTMoney.dir/currencymanager.cpp.o -c /Users/denysiaresko/RTMoney/currencymanager.cpp
 
 CMakeFiles/appRTMoney.dir/currencymanager.cpp.i: cmake_force
@@ -216,7 +224,7 @@ CMakeFiles/appRTMoney.dir/currencymanager.cpp.s: cmake_force
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp.o: CMakeFiles/appRTMoney.dir/flags.make
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp.o: .rcc/qmlcache/appRTMoney_qmlcache_loader.cpp
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp.o: CMakeFiles/appRTMoney.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp.o -MF CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp.o.d -o CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp.o -c /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp
 
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp.i: cmake_force
@@ -230,7 +238,7 @@ CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMon
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp.o: CMakeFiles/appRTMoney.dir/flags.make
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp.o: .rcc/qmlcache/appRTMoney_Main_qml.cpp
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp.o: CMakeFiles/appRTMoney.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp.o -MF CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp.o.d -o CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp.o -c /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp
 
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp.i: cmake_force
@@ -244,7 +252,7 @@ CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMon
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o: CMakeFiles/appRTMoney.dir/flags.make
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o: .qt/rcc/qrc_appRTMoney_raw_qml_0.cpp
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o: CMakeFiles/appRTMoney.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o -MF CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o.d -o CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o -c /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp
 
 CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.i: cmake_force
@@ -255,6 +263,20 @@ CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp -o CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.s
 
+CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o: CMakeFiles/appRTMoney.dir/flags.make
+CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o: .qt/rcc/qrc_appRTMoney_raw_res_0.cpp
+CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o: CMakeFiles/appRTMoney.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o -MF CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o.d -o CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o -c /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp
+
+CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp > CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.i
+
+CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp -o CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.s
+
 # Object files for target appRTMoney
 appRTMoney_OBJECTS = \
 "CMakeFiles/appRTMoney.dir/appRTMoney_autogen/mocs_compilation.cpp.o" \
@@ -264,7 +286,8 @@ appRTMoney_OBJECTS = \
 "CMakeFiles/appRTMoney.dir/currencymanager.cpp.o" \
 "CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp.o" \
 "CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp.o" \
-"CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o"
+"CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o" \
+"CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o"
 
 # External object files for target appRTMoney
 appRTMoney_EXTERNAL_OBJECTS =
@@ -277,6 +300,7 @@ appRTMoney.app/Contents/MacOS/appRTMoney: CMakeFiles/appRTMoney.dir/currencymana
 appRTMoney.app/Contents/MacOS/appRTMoney: CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp.o
 appRTMoney.app/Contents/MacOS/appRTMoney: CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp.o
 appRTMoney.app/Contents/MacOS/appRTMoney: CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o
+appRTMoney.app/Contents/MacOS/appRTMoney: CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o
 appRTMoney.app/Contents/MacOS/appRTMoney: CMakeFiles/appRTMoney.dir/build.make
 appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtQuick.framework/Versions/A/QtQuick
 appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCharts.framework/Versions/A/QtCharts
@@ -288,7 +312,7 @@ appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/li
 appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtGui.framework/Versions/A/QtGui
 appRTMoney.app/Contents/MacOS/appRTMoney: /Users/denysiaresko/Qt/6.11.0/macos/lib/QtCore.framework/Versions/A/QtCore
 appRTMoney.app/Contents/MacOS/appRTMoney: CMakeFiles/appRTMoney.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable appRTMoney.app/Contents/MacOS/appRTMoney"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable appRTMoney.app/Contents/MacOS/appRTMoney"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/appRTMoney.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -300,6 +324,7 @@ CMakeFiles/appRTMoney.dir/clean:
 .PHONY : CMakeFiles/appRTMoney.dir/clean
 
 CMakeFiles/appRTMoney.dir/depend: .qt/rcc/qrc_appRTMoney_raw_qml_0.cpp
+CMakeFiles/appRTMoney.dir/depend: .qt/rcc/qrc_appRTMoney_raw_res_0.cpp
 CMakeFiles/appRTMoney.dir/depend: .qt/rcc/qrc_qmake_RTMoney.cpp
 CMakeFiles/appRTMoney.dir/depend: .rcc/qmlcache/appRTMoney_Main_qml.cpp
 CMakeFiles/appRTMoney.dir/depend: .rcc/qmlcache/appRTMoney_Main_qml.cpp.aotstats

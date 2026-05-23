@@ -2,4 +2,6 @@
 /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qmake_RTMoney.qrc
 --resource
 /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/appRTMoney_raw_qml_0.qrc
+--resource
+/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/appRTMoney_raw_res_0.qrc
 /qt/qml/RTMoney/Main.qml

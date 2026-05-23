@@ -480,6 +480,30 @@ build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney.dir/build.make CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.s
 .PHONY : build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.s
 
+build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.o: build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o
+.PHONY : build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.o
+
+# target to build an object file
+build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney.dir/build.make CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o
+.PHONY : build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o
+
+build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.i: build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.i
+.PHONY : build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.i
+
+# target to preprocess a source file
+build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney.dir/build.make CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.i
+.PHONY : build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.i
+
+build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.s: build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.s
+.PHONY : build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.s
+
+# target to generate assembly for a file
+build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney.dir/build.make CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.s
+.PHONY : build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.s
+
 build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.o: build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp.o
 .PHONY : build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.o
 
@@ -640,6 +664,9 @@ help:
 	@echo "... build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.o"
 	@echo "... build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.i"
 	@echo "... build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.s"
+	@echo "... build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.o"
+	@echo "... build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.i"
+	@echo "... build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.s"
 	@echo "... build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.o"
 	@echo "... build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.i"
 	@echo "... build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.s"

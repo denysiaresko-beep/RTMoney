@@ -77,11 +77,12 @@ CMakeFiles/module_appRTMoney_aotstats_target: .rcc/qmlcache/module_appRTMoney.ao
 .rcc/qmlcache/appRTMoney_Main_qml.cpp: /Users/denysiaresko/RTMoney/Main.qml
 .rcc/qmlcache/appRTMoney_Main_qml.cpp: .qt/rcc/qmake_RTMoney.qrc
 .rcc/qmlcache/appRTMoney_Main_qml.cpp: .qt/rcc/appRTMoney_raw_qml_0.qrc
+.rcc/qmlcache/appRTMoney_Main_qml.cpp: .qt/rcc/appRTMoney_raw_res_0.qrc
 .rcc/qmlcache/appRTMoney_Main_qml.cpp: RTMoney/appRTMoney.qmltypes
 .rcc/qmlcache/appRTMoney_Main_qml.cpp: RTMoney/qmldir
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/appRTMoney_Main_qml.cpp, .rcc/qmlcache/appRTMoney_Main_qml.cpp.aotstats"
 	/Users/denysiaresko/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E make_directory /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache
-	/Users/denysiaresko/Qt/6.11.0/macos/libexec/qmlcachegen --bare --resource-path /qt/qml/RTMoney/Main.qml -I /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug -I /Users/denysiaresko/Qt/6.11.0/macos/qml -i /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/RTMoney/qmldir --resource /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qmake_RTMoney.qrc --resource /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/appRTMoney_raw_qml_0.qrc --dump-aot-stats "--module-id=RTMoney(appRTMoney)" -o /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp /Users/denysiaresko/RTMoney/Main.qml
+	/Users/denysiaresko/Qt/6.11.0/macos/libexec/qmlcachegen --bare --resource-path /qt/qml/RTMoney/Main.qml -I /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug -I /Users/denysiaresko/Qt/6.11.0/macos/qml -i /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/RTMoney/qmldir --resource /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qmake_RTMoney.qrc --resource /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/appRTMoney_raw_qml_0.qrc --resource /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/appRTMoney_raw_res_0.qrc --dump-aot-stats "--module-id=RTMoney(appRTMoney)" -o /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp /Users/denysiaresko/RTMoney/Main.qml
 
 .rcc/qmlcache/appRTMoney_Main_qml.cpp.aotstats: .rcc/qmlcache/appRTMoney_Main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/appRTMoney_Main_qml.cpp.aotstats

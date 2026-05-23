@@ -848,6 +848,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   ".qt/rcc/qmake_RTMoney.qrc"
   "RTMoney/appRTMoney_qml_module_dir_map.qrc"
   ".qt/rcc/appRTMoney_raw_qml_0.qrc"
+  ".qt/rcc/appRTMoney_raw_res_0.qrc"
   "RTMoney/qmldir"
   ".qt/.qmlls.build.ini.part"
   ".qt/info_plist/appRTMoney/Info.plist"

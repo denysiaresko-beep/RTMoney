@@ -104,12 +104,12 @@ CMakeFiles/appRTMoney.dir/all: CMakeFiles/appRTMoney_autogen.dir/all
 CMakeFiles/appRTMoney.dir/all: CMakeFiles/appRTMoney_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney.dir/build.make CMakeFiles/appRTMoney.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney.dir/build.make CMakeFiles/appRTMoney.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target appRTMoney"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target appRTMoney"
 .PHONY : CMakeFiles/appRTMoney.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/appRTMoney.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/appRTMoney.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/appRTMoney.dir/rule
@@ -130,7 +130,7 @@ CMakeFiles/appRTMoney.dir/clean:
 CMakeFiles/appRTMoney_qmltyperegistration.dir/all: CMakeFiles/appRTMoney_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney_qmltyperegistration.dir/build.make CMakeFiles/appRTMoney_qmltyperegistration.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney_qmltyperegistration.dir/build.make CMakeFiles/appRTMoney_qmltyperegistration.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=24,25,26,27,28 "Built target appRTMoney_qmltyperegistration"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=26,27,28,29,30 "Built target appRTMoney_qmltyperegistration"
 .PHONY : CMakeFiles/appRTMoney_qmltyperegistration.dir/all
 
 # Build rule for subdir invocation for target.
@@ -338,7 +338,7 @@ CMakeFiles/all_qmllint_module.dir/clean:
 CMakeFiles/dump_qml_context_properties.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_qml_context_properties.dir/build.make CMakeFiles/dump_qml_context_properties.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dump_qml_context_properties.dir/build.make CMakeFiles/dump_qml_context_properties.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=30 "Built target dump_qml_context_properties"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=32 "Built target dump_qml_context_properties"
 .PHONY : CMakeFiles/dump_qml_context_properties.dir/all
 
 # Build rule for subdir invocation for target.
@@ -364,7 +364,7 @@ CMakeFiles/dump_qml_context_properties.dir/clean:
 CMakeFiles/clean_qml_context_properties.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_qml_context_properties.dir/build.make CMakeFiles/clean_qml_context_properties.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_qml_context_properties.dir/build.make CMakeFiles/clean_qml_context_properties.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=29 "Built target clean_qml_context_properties"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=31 "Built target clean_qml_context_properties"
 .PHONY : CMakeFiles/clean_qml_context_properties.dir/all
 
 # Build rule for subdir invocation for target.
@@ -390,7 +390,7 @@ CMakeFiles/clean_qml_context_properties.dir/clean:
 CMakeFiles/appRTMoney_copy_qml.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney_copy_qml.dir/build.make CMakeFiles/appRTMoney_copy_qml.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney_copy_qml.dir/build.make CMakeFiles/appRTMoney_copy_qml.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=21 "Built target appRTMoney_copy_qml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=23 "Built target appRTMoney_copy_qml"
 .PHONY : CMakeFiles/appRTMoney_copy_qml.dir/all
 
 # Build rule for subdir invocation for target.
@@ -416,7 +416,7 @@ CMakeFiles/appRTMoney_copy_qml.dir/clean:
 CMakeFiles/appRTMoney_copy_res.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney_copy_res.dir/build.make CMakeFiles/appRTMoney_copy_res.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney_copy_res.dir/build.make CMakeFiles/appRTMoney_copy_res.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=22 "Built target appRTMoney_copy_res"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=24 "Built target appRTMoney_copy_res"
 .PHONY : CMakeFiles/appRTMoney_copy_res.dir/all
 
 # Build rule for subdir invocation for target.
@@ -442,7 +442,7 @@ CMakeFiles/appRTMoney_copy_res.dir/clean:
 CMakeFiles/generate_qmlls_build_ini_file.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_qmlls_build_ini_file.dir/build.make CMakeFiles/generate_qmlls_build_ini_file.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_qmlls_build_ini_file.dir/build.make CMakeFiles/generate_qmlls_build_ini_file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=31 "Built target generate_qmlls_build_ini_file"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=33 "Built target generate_qmlls_build_ini_file"
 .PHONY : CMakeFiles/generate_qmlls_build_ini_file.dir/all
 
 # Build rule for subdir invocation for target.
@@ -469,7 +469,7 @@ CMakeFiles/module_appRTMoney_aotstats_target.dir/all: CMakeFiles/appRTMoney_qmlt
 CMakeFiles/module_appRTMoney_aotstats_target.dir/all: CMakeFiles/appRTMoney_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/module_appRTMoney_aotstats_target.dir/build.make CMakeFiles/module_appRTMoney_aotstats_target.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/module_appRTMoney_aotstats_target.dir/build.make CMakeFiles/module_appRTMoney_aotstats_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=32,33 "Built target module_appRTMoney_aotstats_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=34,35 "Built target module_appRTMoney_aotstats_target"
 .PHONY : CMakeFiles/module_appRTMoney_aotstats_target.dir/all
 
 # Build rule for subdir invocation for target.
@@ -522,7 +522,7 @@ CMakeFiles/all_aotstats.dir/clean:
 CMakeFiles/appRTMoney_qmlimportscan.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney_qmlimportscan.dir/build.make CMakeFiles/appRTMoney_qmlimportscan.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney_qmlimportscan.dir/build.make CMakeFiles/appRTMoney_qmlimportscan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=23 "Built target appRTMoney_qmlimportscan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=25 "Built target appRTMoney_qmlimportscan"
 .PHONY : CMakeFiles/appRTMoney_qmlimportscan.dir/all
 
 # Build rule for subdir invocation for target.
@@ -577,7 +577,7 @@ CMakeFiles/appRTMoney_autogen_timestamp_deps.dir/clean:
 CMakeFiles/appRTMoney_autogen.dir/all: CMakeFiles/appRTMoney_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney_autogen.dir/build.make CMakeFiles/appRTMoney_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/appRTMoney_autogen.dir/build.make CMakeFiles/appRTMoney_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=20 "Built target appRTMoney_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/CMakeFiles --progress-num=22 "Built target appRTMoney_autogen"
 .PHONY : CMakeFiles/appRTMoney_autogen.dir/all
 
 # Build rule for subdir invocation for target.

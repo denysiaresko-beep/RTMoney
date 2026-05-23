@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   ".qt/rcc/qrc_appRTMoney_raw_qml_0.cpp"
+  ".qt/rcc/qrc_appRTMoney_raw_res_0.cpp"
   ".qt/rcc/qrc_qmake_RTMoney.cpp"
   ".rcc/qmlcache/appRTMoney_Main_qml.cpp"
   ".rcc/qmlcache/appRTMoney_Main_qml.cpp.aotstats"
@@ -13,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/appRTMoney.dir/apprtmoney_qmltyperegistrations.cpp.o.d"
   "CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o"
   "CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp.o.d"
+  "CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o"
+  "CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp.o.d"
   "CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp.o"
   "CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp.o.d"
   "CMakeFiles/appRTMoney.dir/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp.o"

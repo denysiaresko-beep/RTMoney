@@ -1409,6 +1409,7 @@
 		"/Users/denysiaresko/Qt/6.11.0/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/Users/denysiaresko/Qt/6.11.0/macos/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
 		"/Users/denysiaresko/Qt/6.11.0/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/Users/denysiaresko/Qt/6.11.0/macos/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/Users/denysiaresko/Qt/6.11.0/macos/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/qml_imports/appRTMoney_conf.cmake",
 		"/Users/denysiaresko/Qt/6.11.0/macos/lib/cmake/Qt6/macos/Info.plist.app.in"
@@ -1503,6 +1504,7 @@
 	"MOC_SKIP" : 
 	[
 		"/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp",
+		"/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp",
 		"/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp",
 		"/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp",
 		"/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp",
@@ -1526,6 +1528,7 @@
 	"UIC_SKIP" : 
 	[
 		"/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_qml_0.cpp",
+		"/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_appRTMoney_raw_res_0.cpp",
 		"/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.qt/rcc/qrc_qmake_RTMoney.cpp",
 		"/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_Main_qml.cpp",
 		"/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/.rcc/qmlcache/appRTMoney_qmlcache_loader.cpp",

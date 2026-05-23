@@ -18,6 +18,8 @@ qt_add_qml_module(appRTMoney
     QML_FILES
         Main.qml
         SOURCES currencymanager.h currencymanager.cpp
+        SOURCES
+        RESOURCES .gitignore
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
