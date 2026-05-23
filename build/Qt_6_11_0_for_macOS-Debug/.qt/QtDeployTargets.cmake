@@ -1,2 +1,0 @@
-set(__QT_DEPLOY_TARGET_appRTMoney_FILE /Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/appRTMoney.app/Contents/MacOS/appRTMoney)
-set(__QT_DEPLOY_TARGET_appRTMoney_TYPE EXECUTABLE)

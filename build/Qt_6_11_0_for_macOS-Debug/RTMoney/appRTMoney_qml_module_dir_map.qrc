@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/RTMoney">/Users/denysiaresko/RTMoney/build/Qt_6_11_0_for_macOS-Debug/RTMoney</file>
-
-  </qresource>
-</RCC>

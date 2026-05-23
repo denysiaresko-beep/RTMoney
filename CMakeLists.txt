@@ -19,6 +19,7 @@ qt_add_qml_module(appRTMoney
         Main.qml
         SOURCES currencymanager.h currencymanager.cpp
         SOURCES
+        RESOURCES
         RESOURCES .gitignore
 )
 
