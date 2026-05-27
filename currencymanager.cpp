@@ -46,7 +46,7 @@ void CurrencyManager::updateRate(const QString &coin,const QString &curr) {
 
 
 void CurrencyManager::updateChart(const QString &coin, const QString &curr, int days) {
-    QStringList currencies = { "usd", "eur", "uah" };
+
     bool isCoinFiat = currencies.contains(coin);
     bool isCurrFiat = currencies.contains(curr);
     QString finalId = coin;
@@ -84,35 +84,17 @@ void CurrencyManager::updateChart(const QString &coin, const QString &curr, int 
 
                     connect(chartReply, &QNetworkReply::finished, this, [this, chartReply, btcToCoin]() {
                         if (chartReply->error() == QNetworkReply::NoError) {
-                            QJsonDocument chartDoc = QJsonDocument::fromJson(chartReply->readAll());
-                            QJsonArray pricesArray = chartDoc.object()["prices"].toArray();
-                            QVariantList points;
+                            chartReply->deleteLater();
 
-                            double minPrice = std::numeric_limits<double>::max();
-                            double maxPrice = std::numeric_limits<double>::lowest();
+                            ParserChartData parsedData = parseChartJson(chartReply->readAll(), false, btcToCoin);
 
-                            for (int i = 0; i < pricesArray.size(); ++i) {
-                                QJsonArray pt = pricesArray[i].toArray();
-                                double timestamp = pt[0].toDouble();
-                                double btcPriceInCurr = pt[1].toDouble();
-
-                                double crossPrice = btcPriceInCurr / btcToCoin;
-
-                                if (crossPrice < minPrice) minPrice = crossPrice;
-                                if (crossPrice > maxPrice) maxPrice = crossPrice;
-
-                                QVariantMap pointMap;
-                                pointMap["x"] = timestamp;
-                                pointMap["y"] = crossPrice;
-                                points.append(pointMap);
+                            if(parsedData.isValid) {
+                                emit chartDataReady(parsedData.points, parsedData.minPrice, parsedData.maxPrice);
+                                qDebug() << "Fiat Cross-Chart ready for rendering.";
                             }
-
-                            emit chartDataReady(points, minPrice, maxPrice);
-                            qDebug() << "Fiat Cross-Chart ready for rendering.";
                         } else {
                             qDebug() << "Fiat Cross-Chart Error:" << chartReply->errorString();
                         }
-                        chartReply->deleteLater();
                     });
                 }
             } else {
@@ -120,12 +102,8 @@ void CurrencyManager::updateChart(const QString &coin, const QString &curr, int 
             }
             priceReply->deleteLater();
         });
+        return;
     }
-
-
-
-
-
 
     QString urlString = QString("https://api.coingecko.com/api/v3/coins/%1/market_chart?vs_currency=%2&days=%3&x_cg_demo_api_key=CG-StPNxD7SgVnr81ZfNS5fvcaF").arg(finalId).arg(finalVs).arg(days);
     QUrl url(urlString);
@@ -134,56 +112,69 @@ void CurrencyManager::updateChart(const QString &coin, const QString &curr, int 
     QNetworkReply *reply = manager->get(request);
 
     connect(reply, &QNetworkReply::finished, this, [this, reply, coin, curr, needsInvert](){
-        if (reply->error() == QNetworkReply::NoError) {
-            QByteArray responseData = reply->readAll();
-
-            QJsonDocument doc = QJsonDocument::fromJson(responseData);
-            QJsonObject rootObj = doc.object();
-
-            if (rootObj.contains("prices")) {
-                QJsonArray pricesArray = rootObj["prices"].toArray();
-                QVariantList points;
-
-                double minPrice = std::numeric_limits<double>::max();
-                double maxPrice = std::numeric_limits<double>::lowest();
-                double latestRate = 0.0;
-
-                for (int i = 0; i < pricesArray.size(); ++i) {
-                    QJsonArray pt = pricesArray[i].toArray();
-                    double timestamp = pt[0].toDouble();
-                    double price = pt[1].toDouble();
-
-                    if (price < minPrice) {
-                        minPrice = price;
-                    }
-                    if (price > maxPrice) {
-                        maxPrice = price;
-                    }
-
-                    QVariantMap pointMap;
-                    pointMap["x"] = timestamp;
-                    pointMap["y"] = price;
-                    points.append(pointMap);
-
-                    if (i == pricesArray.size() - 1) {
-                        latestRate = price;
-                    }
-
-                    if (needsInvert && latestRate != 0) {
-                        latestRate = 1.0 / latestRate;
-                    }
-                }
-
-                emit rateChanged(latestRate);
-                emit chartDataReady(points, minPrice, maxPrice);
-
-                qDebug() << "Chart rate for " << coin << " to " << latestRate;
-            }
-        } else {
-            qDebug() << "Network Error! " << reply->errorString();
-        }
         reply->deleteLater();
 
+        if (reply->error() != QNetworkReply::NoError) {
+            qDebug() << "Network Error:" << reply->errorString();
+            return;
+        }
+
+
+        ParserChartData parsedData = parseChartJson(reply->readAll(), needsInvert);
+
+        if (!parsedData.isValid) {
+            qDebug() << "Failed ti parse chart JSON";
+            return;
+        }
+
+        emit rateChanged(parsedData.latestRate);
+        emit chartDataReady(parsedData.points, parsedData.minPrice, parsedData.maxPrice);
+
+        qDebug() << "Chart rate for " << coin << " to " << parsedData.latestRate;
     });
 }
 
+
+ParserChartData CurrencyManager::parseChartJson(const QByteArray &jsonData, bool needsInvert, double btcCrossRate) {
+    ParserChartData result;
+
+    QJsonDocument doc = QJsonDocument::fromJson(jsonData);
+    QJsonObject rootObject = doc.object();
+
+    if(!rootObject.contains("prices")) {
+        return result;
+    }
+
+    QJsonArray pricesArray = rootObject["prices"].toArray();
+    result.minPrice = std::numeric_limits<double>::max();
+    result.maxPrice = std::numeric_limits<double>::lowest();
+
+    for(const QJsonValue &value : pricesArray) {
+        QJsonArray pt = value.toArray();
+        double timestamp = pt[0].toDouble();
+        double price = pt[1].toDouble();
+
+
+        if (btcCrossRate != 1.0 && btcCrossRate > 0) {
+            price = price / btcCrossRate;
+        }
+
+        if (needsInvert && price != 0.0) {
+            price = 1.0 / price;
+        }
+
+        result.minPrice = std::min(result.minPrice, price);
+        result.maxPrice = std::max(result.maxPrice, price);
+        result.latestRate = price;
+
+        QVariantMap pointMap;
+        pointMap["x"] = timestamp;
+        pointMap["y"] = price;
+        result.points.append(pointMap);
+    }
+
+    result.isValid = true;
+    return result;
+
+
+}
