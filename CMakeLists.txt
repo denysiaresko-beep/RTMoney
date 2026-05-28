@@ -22,6 +22,7 @@ qt_add_qml_module(appRTMoney
         RESOURCES
         RESOURCES .gitignore
         SOURCES
+        RESOURCES config.json
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -43,6 +44,9 @@ target_link_libraries(appRTMoney PRIVATE
     Qt6::Charts
     Qt6::Widgets
 )
+
+file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/config.json
+     DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
 
 install(TARGETS appRTMoney
     BUNDLE DESTINATION .

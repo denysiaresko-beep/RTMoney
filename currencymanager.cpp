@@ -4,6 +4,9 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QJsonArray>
+#include <QFile>
+#include <stdexcept>
+
 
 CurrencyManager::CurrencyManager() {
     manager = new QNetworkAccessManager(this);
@@ -178,3 +181,43 @@ ParserChartData CurrencyManager::parseChartJson(const QByteArray &jsonData, bool
 
 
 }
+
+
+
+Config::Config(QString filepath) {
+    QFile file(filepath);
+
+    if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+        throw std::runtime_error(("Cannot open file: " + filepath).toStdString());
+    }
+
+    QByteArray jsonData = file.readAll();
+    file.close();
+
+    QJsonParseError parseError;
+    QJsonDocument doc = QJsonDocument::fromJson(jsonData, &parseError);
+
+    if(parseError.error != QJsonParseError::NoError) {
+        throw std::runtime_error(("Error of Parsing JSON: ") + parseError.errorString().toStdString());
+    }
+
+    if (!doc.isObject()) {
+        throw std::runtime_error("root element JSON is not object");
+    }
+
+    QJsonObject jsonObj = doc.object();
+
+    if (jsonObj.contains("api_key") && jsonObj["api_key"].isString()) {
+        apiKey = jsonObj["api_key"].toString();
+    } else {
+        throw std::runtime_error("No 'api_key' or wrong format");
+    }
+}
+
+
+
+
+
+
+
+

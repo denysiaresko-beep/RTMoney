@@ -22,6 +22,15 @@ int main(int argc, char *argv[])
 
     engine.loadFromModule("RTMoney", "Main");
 
+    try {
+        Config appConfig(":/qt/qml/RTMoney/config.json");
+
+        qDebug() << "Key installed seccesful:" << appConfig.apiKey;
+    } catch (const std::exception& e) {
+        qCritical() << "Critical Error on start:" << e.what();
+        return -1;
+    }
+
 
     return QCoreApplication::exec();
 }

@@ -38,4 +38,10 @@ struct ParserChartData {
 
 };
 
+struct Config {
+    QString apiKey;
+
+    Config(QString filepath);
+};
+
 #endif // CURRENCYMANAGER_H
